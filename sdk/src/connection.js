@@ -15,8 +15,8 @@ var stropheConn = null
 /**
  * rewriting in order to fit the Vue
  */
-var Strophe = require('strophe.js').Strophe;
-var meStrophe = require('strophe.js');
+var Strophe = require('vue-strophe.js').Strophe;
+var meStrophe = require('vue-strophe.js');
 $iq = meStrophe.$iq;
 $build = meStrophe.$build;
 $msg = meStrophe.$msg;

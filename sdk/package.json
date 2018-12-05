@@ -1,6 +1,6 @@
 {
   "name": "easemob-websdk-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easemob IM websdk(in order to fit the Vue)",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "webpack-stream": "^3.2.0"
   },
   "author": {
-    "name": "easemob"
+    "name": "menmos"
   },
   "license": "MIT"
 }
