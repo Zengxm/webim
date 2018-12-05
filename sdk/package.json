@@ -1,7 +1,7 @@
 {
-  "name": "easemob-websdk",
-  "version": "1.8.0",
-  "description": "Easemob IM websdk",
+  "name": "easemob-websdk-vue",
+  "version": "1.0.0",
+  "description": "Easemob IM websdk(in order to fit the Vue)",
   "main": "index.js",
   "scripts": {
     "build": "gulp",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easemob/webim.git"
+    "url": "git+https://github.com/Zengxm/webim.git"
   },
   "keywords": [
     "realtime",

@@ -12,6 +12,16 @@ var Strophe = window.Strophe
 var isStropheLog;
 var stropheConn = null
 
+/**
+ * rewriting in order to fit the Vue
+ */
+var Strophe = require('strophe.js').Strophe;
+var meStrophe = require('strophe.js');
+$iq = meStrophe.$iq;
+$build = meStrophe.$build;
+$msg = meStrophe.$msg;
+$pres = meStrophe.$pres;
+
 window.URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
 
 var logMessage = function (message) {
